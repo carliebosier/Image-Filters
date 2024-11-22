@@ -11,4 +11,4 @@ for row in range(length):
         grays = int((r + g + b)/3)
         grayscale_image[row][col] = (grays, grays, grays)
 
-common.write_file("new_logo.jpeg", grayscale_image)
+common.write_file("grayscale_logo.jpeg", grayscale_image)
